@@ -119,6 +119,10 @@ case $uname in
                 PF_ARCH=x86
                 ARCH=ia32
             ;;
+            *arm*)
+               PF_ARCH=arm
+               ARCH=arm
+            ;;
             *)
                 PF_ARCH=UNKNOWN
                 ARCH=UNKNOWN
